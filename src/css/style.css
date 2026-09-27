@@ -53,16 +53,12 @@
   padding: 80px 0;
 }
 
-.secaoAlt {
-  background-color: #2e1f1a;
-}
-
 .cabecalhoSecao {
   max-width: 60ch;
   margin-bottom: 32px;
 }
 
-.cabecalhoSecao h1, .cabecalhoSecao h2 {
+.cabecalhoSecao h1 {
   color: #f5ede4;
   margin: 0 0 12px;
 }
@@ -82,46 +78,6 @@
 .gradeSobre img {
   width: 100%;
   border: 1px solid #c9a24b;
-}
-
-.cartaoHarmonizacao {
-  background-color: #2e1f1a;
-  border: 1px solid rgba(201, 162, 75, 0.4);
-  padding: 20px 24px;
-  margin-bottom: 20px;
-}
-
-.cartaoHarmonizacao h3 {
-  margin: 0 0 12px;
-  font-size: 1.3rem;
-  color: #c9a24b;
-}
-
-.grupoHarmonizacao {
-  padding: 14px 0;
-  border-top: 1px solid rgba(201, 162, 75, 0.2);
-}
-
-.grupoHarmonizacao h4 {
-  margin: 0 0 4px;
-  font-size: 1.1rem;
-  color: #f5ede4;
-}
-
-.grupoHarmonizacao h5 {
-  margin: 0 0 8px;
-  font-size: 1rem;
-  font-weight: 400;
-  color: #d9cdbf;
-}
-
-.grupoHarmonizacao h6 {
-  margin: 0;
-  font-size: 0.8rem;
-  font-weight: 500;
-  letter-spacing: 0.06em;
-  text-transform: uppercase;
-  color: #c9a24b;
 }
 
 /* ------------------------------------------------------------------------------------------------------------ */
