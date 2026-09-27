@@ -6,9 +6,9 @@
     <meta name="description" content="Vinheria Agnello: vinhos e consultoria especializada em São Paulo. Conheça a loja e cadastre-se para receber novidades.">
     <meta name="keywords" content="vinheria, vinhos, São Paulo, consultoria de vinhos, harmonização, Agnello">
     <link rel="stylesheet" href="src/css/style.css" /> 
-    <title>Vinheria Agnello: Vinhos e Consultoria Especializada em São Paulo</title>                         
+    <title>Vinheria Agnello: Produtos</title>                         
 </head>
-<body class="pagina">                                                              
+<body class="pagina">
     <!-- links das outras páginas -->
     <header class="cabecalho">                                                
         <div class="container barraNavegacao">
@@ -16,113 +16,325 @@
             <nav aria-label="Navegação principal">
                 <ul class="menuPrincipal">
                     <li><a href="index.html" aria-current="page">Início</a></li>
-                    <li><a href="src/pages/pag1Historia.html">História</a></li>
-                    <li><a href="src/pages/pag2Produtos.html">Produtos</a></li>
-                    <li><a href="src/pages/pag3RedesSociais.html">Redes sociais</a></li>
-                    <li><a href="src/pages/pag4Contatos.html">Contato</a></li>
+                    <li><a href="pag1Historia.html">História</a></li>
+                    <li><a href="pag2Produtos.html">Produtos</a></li>
+                    <li><a href="pag3RedesSociais.html">Redes sociais</a></li>
+                    <li><a href="pag4Contatos.html">Contato</a></li>
                 </ul>
             </nav>
         </div>
     </header>
     <!-- -------------------------------------------------------------------------------------------- -->
-    
     <main>
-        <!-- mini apresentação -->
-        <section class="secao">  
-            <div class="container gradeSobre">
-                <div>
-                    <div class="cabecalhoSecao">
-                        <h1>Quem nós somos?</h1>
-                        <p> A Vinheria Agnello nasceu como uma loja física em São Paulo e, ao longo de mais de 15 anos, construiu sua reputação
-                            em cima de um único princípio: vinho se recomenda com conhecimento e cuidado, não só com prateleira cheia. </p> <br>
-                        <p> Hoje somos dirigidos por Giulio e sua filha Bianca, ao lado de uma equipe que respira vinho todos os dias. </p> <br>
-                        <p> Cada vendedor da nossa loja é treinado para orientar sobre uvas, regiões, rótulos e harmonizações. É com essa mesma
-                            experiência que queremos trazer para você aqui no site! </p> 
-                    </div>
-                </div>
-                <div>
-                    <img src="src/assets/imgs/segurando-vinho.png" width="500" height="600"/>
-                </div>
-            </div>
-        </section>
-        <!-- ---------------------------------------------------------------------------------------- -->
-
-        <!-- o diferecial da empresa -->
-        <section class="secao secaoAlt">
-            <div class="container gradeSobre">
-                <div>
-
-                    <div class="cabecalhoSecao">
-                        <h2>Diferenciais:</h2>
-                        <p>O mundo do vinho tem cerca de 6.000 variedades de uvas... decidir sozinho pode ser difícil. É aí que entramos!</p>
-                    </div>
-
-                    <ul class="listaDiferenciais">
-                        <li>
-                            <p> Mais de <strong>15 anos</strong> de história, sempre sob gestão da mesma família!</p>
-                        </li>
-
-                        <li>
-                            <p> <strong>3 vendedores especialistas</strong>, prontos para indicar o vinho certo para cada ocasião!</p>
-                        </li>
-                        
-                        <li>
-                            <p> <strong>100% dos vinhos</strong> são armazenados sob controle de luz, temperatura e vibração!</p>
-                        </li>
-                    </ul>
-                </div>
-                <div>
-                    <img src="src/assets/imgs/interior-fora.png" />
-                </div>
-            </div>
-        </section>
-        <!-- ---------------------------------------------------------------------------------------- -->
-
-        <!-- campo do formuláio -->
-        <section class="secao" id="cadastro">
+        <!-- tabela de produtos -->
+        <section class="secao">
             <div class="container">
-
                 <div class="cabecalhoSecao">
-                    <h2>Cadastro:</h2>
-                    <p>Cadastre-se para receber novidades, novos lançamentos e promoções!</p>
+                    <h1>Nosso catálogo</h1>
+                    <p> Uma seleção de rótulos nacionais e importados, escolhidos a dedo pela nossa equipe. Na dúvida, veja a coluna de 
+                        harmonização ou fale com a gente na página de <a href="pag4Contatos.html">contato</a>.</p>
                 </div>
+                <div">
+                    <table border="">
+			            <tr>
+				            <th>Nome do vinho</th>
+				            <th>Marca</th>
+				            <th>País</th>
+                            <th>Uva</th>
+				            <th>Safra</th>
+				            <th>Tipo</th>
+				            <th>País</th>
+                            <th>Volume</th>
+				            <th>Harmonização</th>
+				            <th>Avaliação</th>
+				            <th>Preço</th>
+                            <th>Disponibilidade</th>
+			            </tr>
+                        <tr>
+                            <td>Cabernet Sauvignon Reserva</td>
+                            <td>Vinheria Agnello</td>
+                            <td>Brasil</td>
+                            <td>Cabernet Sauvignon</td>
+                            <td>2023</td>
+                            <td>Tinto</td>
+                            <td>Brasil</td>
+                            <td>750 ml</td>
+                            <td>Carnes vermelhas e massas</td>
+                            <td>4,8/5</td>
+                            <td>R$:89,90</td>
+                            <td>Em estoque</td>
+                        </tr>
 
-                <form class="formularioCadastro">
-                    <div class="campo">
-                        <label for="nome">Nome completo:</label>
-                        <input type="text" id="nome" name="nome" placeholder="Nome completo" required />
-                    </div>
+                        <tr>
+                            <td>Merlot Seleção</td>
+                            <td>Vinheria Agnello</td>
+                            <td>Brasil</td>
+                            <td>Merlot</td>
+                            <td>2022</td>
+                            <td>Tinto</td>
+                            <td>Brasil</td>
+                            <td>750 ml</td>
+                            <td>Queijos e massas</td>
+                            <td>4,7/5</td>
+                            <td>R$:99,90</td>
+                            <td>Em estoque</td>
+                        </tr>
 
-                    <div class="campo">
-                        <label for="sexo">Sexo:</label>
-                        <select id="sexo" name="sexo" required>
-                            <option value="outro">Outro</option>
-                            <option value="feminino">Feminino</option>
-                            <option value="masculino">Masculino</option>
-                        </select>
-                    </div>
+                        <tr>
+                            <td>Chardonnay Reserva</td>
+                            <td>Vinheria Agnello</td>
+                            <td>Brasil</td>
+                            <td>Chardonnay</td>
+                            <td>2024</td>
+                            <td>Branco</td>
+                            <td>Brasil</td>
+                            <td>750 ml</td>
+                            <td>Peixes e frutos do mar</td>
+                            <td>4,6/5</td>
+                            <td>R$:79,90</td>
+                            <td>Em estoque</td>
+                        </tr>
 
-                    <div class="campo">
-                        <label for="idade">Idade:</label>
-                        <input type="number" id="idade" name="idade" min="18" max="120" placeholder="Ex: 35" required />
-                    </div>
+                        <tr>
+                            <td>Malbec Gran Reserva</td>
+                            <td>Vinheria Agnello</td>
+                            <td>Argentina</td>
+                            <td>Malbec</td>
+                            <td>2021</td>
+                            <td>Tinto</td>
+                            <td>Argentina</td>
+                            <td>750 ml</td>
+                            <td>Carnes grelhadas e churrasco</td>
+                            <td>4,9/5</td>
+                            <td>R$:139,90</td>
+                            <td>Em estoque</td>
+                        </tr>
 
-                    <div class="campo">
-                        <label for="cpf">CPF:</label>
-                        <input type="text" id="cpf" name="cpf" placeholder="000.000.000-00" inputmode="numeric" required />
-                    </div>
+                        <tr>
+                            <td>Pinot Noir</td>
+                            <td>Vinheria Agnello</td>
+                            <td>Chile</td>
+                            <td>Pinot Noir</td>
+                            <td>2022</td>
+                            <td>Tinto</td>
+                            <td>Chile</td>
+                            <td>750 ml</td>
+                            <td>Aves e massas leves</td>
+                            <td>4,5/5</td>
+                            <td>R$:119,90</td>
+                            <td>Em estoque</td>
+                        </tr>
 
-                    <div class="campo">
-                        <label for="email">E-mail:</label>
-                        <input type="email" id="email" name="email" placeholder="seuemail@exemplo.com" required />
-                    </div>
+                        <tr>
+                            <td>Carmenère Reserva</td>
+                            <td>Vinheria Agnello</td>
+                            <td>Chile</td>
+                            <td>Carmenère</td>
+                            <td>2023</td>
+                            <td>Tinto</td>
+                            <td>Chile</td>
+                            <td>750 ml</td>
+                            <td>Carnes e pratos condimentados</td>
+                            <td>4,7/5</td>
+                            <td>R$:109,90</td>
+                            <td>Em estoque</td>
+                        </tr>
 
-                    <button type="submit">Cadastrar</button>
+                        <tr>
+                            <td>Sauvignon Blanc</td>
+                            <td>Vinheria Agnello</td>
+                            <td>Chile</td>
+                            <td>Sauvignon Blanc</td>
+                            <td>2024</td>
+                            <td>Branco</td>
+                            <td>Chile</td>
+                            <td>750 ml</td>
+                            <td>Saladas e frutos do mar</td>
+                            <td>4,6/5</td>
+                            <td>R$:84,90</td>
+                            <td>Em estoque</td>
+                        </tr>
 
-                </form>
+                        <tr>
+                            <td>Tempranillo Reserva</td>
+                            <td>Vinheria Agnello</td>
+                            <td>Espanha</td>
+                            <td>Tempranillo</td>
+                            <td>2021</td>
+                            <td>Tinto</td>
+                            <td>Espanha</td>
+                            <td>750 ml</td>
+                            <td>Embutidos e carnes assadas</td>
+                            <td>4,8/5</td>
+                            <td>R$:129,90</td>
+                            <td>Em estoque</td>
+                        </tr>
+
+                        <tr>
+                            <td>Rioja Crianza</td>
+                            <td>Vinheria Agnello</td>
+                            <td>Espanha</td>
+                            <td>Tempranillo</td>
+                            <td>2020</td>
+                            <td>Tinto</td>
+                            <td>Espanha</td>
+                            <td>750 ml</td>
+                            <td>Carne de cordeiro e queijos</td>
+                            <td>4,9/5</td>
+                            <td>R$:159,90</td>
+                            <td>Últimas unidades</td>
+                        </tr>
+
+                        <tr>
+                            <td>Chianti Classico</td>
+                            <td>Vinheria Agnello</td>
+                            <td>Itália</td>
+                            <td>Sangiovese</td>
+                            <td>2021</td>
+                            <td>Tinto</td>
+                            <td>Itália</td>
+                            <td>750 ml</td>
+                            <td>Massas e pizzas</td>
+                            <td>4,8/5</td>
+                            <td>R$:149,90</td>
+                            <td>Em estoque</td>
+                        </tr>
+                        <tr>
+                            <td>Pinot Grigio</td>
+                            <td>Vinheria Agnello</td>
+                            <td>Itália</td>
+                            <td>Pinot Grigio</td>
+                            <td>2024</td>
+                            <td>Branco</td>
+                            <td>Itália</td>
+                            <td>750 ml</td>
+                            <td>Peixes e saladas</td>
+                            <td>4,5/5</td>
+                            <td>R$:94,90</td>
+                            <td>Em estoque</td>
+                        </tr>
+
+                        <tr>
+                            <td>Cabernet Sauvignon</td>
+                            <td>Vinheria Agnello</td>
+                            <td>França</td>
+                            <td>Cabernet Sauvignon</td>
+                            <td>2020</td>
+                            <td>Tinto</td>
+                            <td>França</td>
+                            <td>750 ml</td>
+                            <td>Carnes vermelhas e queijos</td>
+                            <td>4,9/5</td>
+                            <td>R$:189,90</td>
+                            <td>Em estoque</td>
+                        </tr>
+
+                        <tr>
+                            <td>Chardonnay Bourgogne</td>
+                            <td>Vinheria Agnello</td>
+                            <td>França</td>
+                            <td>Chardonnay</td>
+                            <td>2022</td>
+                            <td>Branco</td>
+                            <td>França</td>
+                            <td>750 ml</td>
+                            <td>Frutos do mar e aves</td>
+                            <td>4,8/5</td>
+                            <td>R$:179,90</td>
+                            <td>Últimas unidades</td>
+                        </tr>
+
+                        <tr>
+                            <td>Syrah Reserva</td>
+                            <td>Vinheria Agnello</td>
+                            <td>Austrália</td>
+                            <td>Syrah</td>
+                            <td>2022</td>
+                            <td>Tinto</td>
+                            <td>Austrália</td>
+                            <td>750 ml</td>
+                            <td>Carnes grelhadas e hambúrgueres</td>
+                            <td>4,7/5</td>
+                            <td>R$:124,90</td>
+                            <td>Em estoque</td>
+                        </tr>
+
+                        <tr>
+                            <td>Moscato Dolce</td>
+                            <td>Vinheria Agnello</td>
+                            <td>Itália</td>
+                            <td>Moscato</td>
+                            <td>2024</td>
+                            <td>Branco Doce</td>
+                            <td>Itália</td>
+                            <td>750 ml</td>
+                            <td>Sobremesas e frutas</td>
+                            <td>4,6/5</td>
+                            <td>R$:89,90</td>
+                            <td>Em estoque</td>
+                        </tr>
+                    </table>
+                </div>
             </div>
         </section>
-        <!-- ---------------------------------------------------------------------------------------- -->
-  </main>
+        <!-- -------------------------------------------------------------------------------------------- -->
+        
+        <!-- dicas de harmonização -->
+        <section class="secao">
+            <div class="container gradeSobre">
+                <div>
+                    <div class="cabecalhoSecao">
+                        <h2>Dicas de harmonização</h2>
+                        <p>Um guia rápido para acertar na escolha do vinho.</p>
+                    </div>
+
+                    <div class="cartaoHarmonizacao">
+                        <h3>Vinhos tintos</h3>
+                        <div class="grupoHarmonizacao">
+                            <h4>Encorpados</h4>
+                            <h5>Carnes vermelhas e grelhados</h5>
+                            <h6>Cabernet Sauvignon · Malbec · Tempranillo · Syrah</h6>
+                        </div>
+                        <div class="grupoHarmonizacao">
+                            <h4>Leves e médios</h4>
+                            <h5>Massas, aves e queijos</h5>
+                            <h6>Pinot Noir · Merlot · Chianti Classico</h6>
+                        </div>
+                    </div>
+
+                    <div class="cartaoHarmonizacao">
+                        <h3>Vinhos brancos</h3>
+                        <div class="grupoHarmonizacao">
+                            <h4>Secos e frescos</h4>
+                            <h5>Peixes, saladas e frutos do mar</h5>
+                            <h6>Chardonnay · Sauvignon Blanc · Pinot Grigio</h6>
+                        </div>
+                        <div class="grupoHarmonizacao">
+                            <h4>Doces</h4>
+                            <h5>Sobremesas e frutas</h5>
+                            <h6>Moscato Dolce</h6>
+                        </div>
+                    </div>
+                </div>
+                <div>
+                    <img src="assets/imgs/vinhos.png"/>
+                </div>
+            </div>
+        </section>
+        <!-- -------------------------------------------------------------------------------------------- -->
+        
+        <!-- entrar em contato com um especialista -->
+        <section class="secao secaoAlt">
+            <div class="container">
+                <div class="cabecalhoSecao">
+                    <h2>Não sabe por onde começar?</h2>
+                    <p>Confira nossas dicas de harmonização ou fale direto com um de nossos especialistas: <a href="pag4Contatos.html">
+                        Falar com um especialista</a></p>
+                </div>
+            </div>
+        </section>
+        <!-- -------------------------------------------------------------------------------------------- -->
+    </main>
+    <script src="src/js/script.js"></script>   
 </body>
 </html>
