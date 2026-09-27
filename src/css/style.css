@@ -1,0 +1,269 @@
+/* estilo das páginas */
+.pagina {
+  margin: 0;                         
+  background-color: #1b0e10;     
+  color: #f5ede4;                  
+  font-family: "Inter", sans-serif;  
+  line-height: 1.6;                  
+}
+
+/* ------------------------------------------------------------------------------------------------------------ */
+
+/* estilo utilizados na página: index e etc */
+.cabecalho {
+  background-color: #1b0e10;
+  border-bottom: 1px solid #c9a24b;  
+  padding: 18px 0;                    
+}
+
+.barraNavegacao {
+  display: flex;                    
+  align-items: center;
+  justify-content: space-between;   
+  max-width: 1100px;               
+  margin: 0 auto;
+  padding: 0 24px;                  
+}
+
+.marca {
+  font-size: 1.5rem;
+  color: #f5ede4;
+  text-decoration: none;   
+}
+
+.menuPrincipal {
+  list-style: none;  
+  display: flex;      
+  gap: 32px;
+  margin: 0;
+  padding: 0;
+}
+
+.menuPrincipal a {
+  color: #d9cdbf;
+  text-decoration: none;
+  font-size: 0.95rem;
+}
+
+.container {
+  max-width: 1100px;
+  margin: 0 auto;
+  padding: 0 24px;
+}
+
+.secao {
+  padding: 80px 0;
+}
+
+.secaoAlt {
+  background-color: #2e1f1a;
+}
+
+.cabecalhoSecao {
+  max-width: 60ch;
+  margin-bottom: 32px;
+}
+
+.cabecalhoSecao h1, .cabecalhoSecao h2 {
+  color: #f5ede4;
+  margin: 0 0 12px;
+}
+
+.cabecalhoSecao p {
+  color: #d9cdbf;
+  margin: 0;
+}
+
+.gradeSobre {
+  display: grid;
+  grid-template-columns: 1fr 1fr;
+  gap: 48px;
+  align-items: center;
+}
+
+.gradeSobre img {
+  width: 100%;
+  border: 1px solid #c9a24b;
+}
+
+.formularioCadastro {
+  max-width: 640px;
+  display: grid;
+  gap: 22px;
+}
+
+.campo {
+  display: grid;
+  gap: 8px;
+}
+
+.listaContato strong {
+  display: block;
+  color: #c9a24b;
+  font-size: 0.85rem;
+  margin-bottom: 4px;
+  font-weight: 500;
+}
+
+.listaContato span {
+  color: #d9cdbf;
+}
+
+.campo textarea {
+  background-color: #1b0e10;
+  border: 1px solid rgba(201, 162, 75, 0.4);
+  color: #f5ede4;
+  font-family: "Inter", sans-serif;
+  font-size: 1rem;
+  padding: 12px 14px;
+  resize: vertical;
+  min-height: 120px;
+}
+
+.campo input::placeholder {
+  color: rgba(217, 205, 191, 0.5);
+}
+
+#sexo option {
+  background-color: #2e1f1a;
+  color: #f5ede4;
+}
+
+.campo input, .campo select, .campo textarea {
+  background-color: #2e1f1a;
+  border: 1px solid rgba(201, 162, 75, 0.4);
+  color: #f5ede4;
+  font-family: "Inter", sans-serif;
+  font-size: 1rem;
+  padding: 12px 14px;
+}
+
+/* ------------------------------------------------------------------------------------------------------------ */
+
+/* estilo utilizados na página: contato  */
+
+.gradeContato {
+  display: grid;
+  grid-template-columns: 1fr 1fr;
+  gap: 56px;
+}
+
+.listaContato {
+  list-style: none;
+  margin: 0 0 32px;
+  padding: 0;
+}
+
+.gradeContato img {
+  width: 100%;
+  height: auto;
+  border: 1px solid #c9a24b;
+}
+
+.listaContato li {
+  padding: 16px 0;
+  border-bottom: 1px solid rgba(201, 162, 75, 0.2);
+}
+
+.listaContato strong {
+  display: block;
+  color: var(--cor-dourado);
+  font-size: 0.85rem;
+  margin-bottom: 4px;
+  font-weight: 500;
+}
+
+.listaContato span {
+  color: var(--cor-texto-suave);
+}
+
+.campo textarea {
+  background-color: var(--cor-fundo);
+  border: 1px solid rgba(201, 162, 75, 0.4);
+  color: var(--cor-papel);
+  font-family: var(--fonte-corpo);
+  font-size: 1rem;
+  padding: 12px 14px;
+  resize: vertical;
+  min-height: 120px;
+}
+
+/* ------------------------------------------------------------------------------------------------------------ */
+
+/* estilo utilizados na página: redes sociais */
+
+.redesLayout {
+    display: grid;
+    grid-template-columns: 1fr 1fr;
+    gap: 48px;
+    align-items: center;
+}
+
+.redesImagem {
+    margin: 0;
+}
+
+.redesImagem img {
+    width: 100%;
+    height: auto;
+    display: block;
+    border-radius: 12px;
+    object-fit: cover;
+}
+
+.videoRedes {
+  max-width: 800px;
+  aspect-ratio: 16 / 9;
+}
+
+.videoRedes iframe {
+  width: 100%;
+  height: 100%;
+  border: 0;
+}
+
+/* ------------------------------------------------------------------------------------------------------------ */
+
+/* estilo estilo utilizados na página: produtos */
+
+.cartaoHarmonizacao {
+  background-color: #2e1f1a;
+  border: 1px solid rgba(201, 162, 75, 0.4);
+  padding: 20px 24px;
+  margin-bottom: 20px;
+}
+
+.cartaoHarmonizacao h3 {
+  margin: 0 0 12px;
+  font-size: 1.3rem;
+  color: #c9a24b;
+}
+
+.grupoHarmonizacao {
+  padding: 14px 0;
+  border-top: 1px solid rgba(201, 162, 75, 0.2);
+}
+
+.grupoHarmonizacao h4 {
+  margin: 0 0 4px;
+  font-size: 1.1rem;
+  color: #f5ede4;
+}
+
+.grupoHarmonizacao h5 {
+  margin: 0 0 8px;
+  font-size: 1rem;
+  font-weight: 400;
+  color: #d9cdbf;
+}
+
+.grupoHarmonizacao h6 {
+  margin: 0;
+  font-size: 0.8rem;
+  font-weight: 500;
+  letter-spacing: 0.06em;
+  text-transform: uppercase;
+  color: #c9a24b;
+}
+
+/* ------------------------------------------------------------------------------------------------------------ */
